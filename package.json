@@ -1,0 +1,44 @@
+{
+  "name": "claudash",
+  "version": "0.0.1",
+  "description": "Interactive TUI dashboard for Claude Code sessions - like tig for git, but for your AI pair programming history",
+  "main": "claudash.js",
+  "bin": {
+    "cld": "./claudash-tui.js",
+    "cld-list": "./claudash.js"
+  },
+  "scripts": {
+    "start": "node claudash-tui.js",
+    "list": "node claudash.js 10",
+    "test": "node claudash-tui.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "dashboard",
+    "tui",
+    "terminal",
+    "sessions",
+    "history",
+    "browser",
+    "tig",
+    "vim",
+    "interactive",
+    "cli",
+    "cld"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudash/claudash.git"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
